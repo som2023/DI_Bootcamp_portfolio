@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Exo', sans-serif;
+}
+:root {
+    --bg-color: #f1e8e6;
+    --bg-second-color: #537FE7;
+    --text-color: #000;
+    --main-color:#5F9EA0;
+    --header-second: #fff;
+}
+html {
+    font-size: 62%;
+    /* overflow: hidden; */
+}
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+ 
+span {
+    color: var(--main-color);
+}
+.competence {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--bg-second-color);
+}
+
+.about_img {
+    width: 35vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.heading-second {
+    color: var(--header-second);
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+} 
+
+.services-container .services-box {
+    flex: 1 1 25rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.services-container .services-box:hover {
+    border: .4rem solid;
+    border-color: var(--main-color);
+}
+ 
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.services-box img {
+    height: 200px;
+}
+
+ 
